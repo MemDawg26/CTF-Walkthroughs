@@ -4,8 +4,7 @@ I hop on Hack The Box or TryHackMe, and the beginner challenges don't even seem 
 is my attempt at writing walkthroughs for some of the challenges I will attempt. Most of it may not be
 super impressive, but I'm learning, and that is all that matters to me.
 
-There are two different branches outside of this main branch. They will be for Hack The Box and TryHackMe
-respectively.
+There are three different branches outside of this main branch. They will be for Hack The Box, TryHackMe, and CyLab/picoCTF.
 
 Enjoy the chaos!
 -Ethan
