@@ -1,6 +1,6 @@
 # [Easy] Cookies
-**Description:** Who doesn't love cookies? Try to figure out the best one.
-**Date: 11/20/2026**
+**Description:** Who doesn't love cookies? Try to figure out the best one.  
+**Date Attempted: 11/20/2026**
 ***
 **Walkthrough:**
 - Step 1: Upon starting the instance, we are brought to a webpage to search cookies. My first step is to test how the page responds to different answers.
