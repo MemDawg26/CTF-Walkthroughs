@@ -6,7 +6,7 @@ Your friend tells you to check out a new social media platform he built a few ye
 **Date Attempted:** 11/20/2026
 ***
 ## Walkthrough
-- Step 1: The link brings us to a simple website login. My first check is to see how the website may respond to credentials like admin/admin. While inspecting the cookies, nothing was really substantial.
+- Step 1: The link brings us to a simple website login with an option to register an account. My first check is to see how the website may respond to credentials like admin/admin. While inspecting the cookies and network traffic, nothing was really substantial.
 - Step 2: I register an account using simple credentials, and after logging in, there is a page with 4 messages from various users. One message says: "Hey I found a strange page at /sessions"
 - Step 3: I edit the web address by adding /sessions to the end of it and I am brought to a page holding the session information. There are two sessions, mine that I had just created, and a session for an account named admin.
 - Step 4: In the cookies section of Inspect, I replace my session key with the session key of the admin and attempt to go back to the main dashboard page.
