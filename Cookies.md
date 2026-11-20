@@ -9,4 +9,11 @@
 - Step 4: Clearly, this webpage utilizes some background database, which may hint towards some sort of injection attack. But given the theme of the challenge, I am inclined to focus on cookies for now.
 - Step 5: Let's inspect the page and see if the cookies gives us any useful information. I right-click on the page, select inspect, go to "Application" and click the cookies tab on the left-hand side under storage. While I have this cookie page open, I notice that any time a cookie(snack) does not exist, the cookie value is -1. For chocolate chip, the cookie value is 1. For peanut butter, the cookie value is 5. This makes me think that the cookies(snacks) are ranked through the cookie value.
 - Step 6: Another thing I notice in the Inspect is that when searching, we are sending a POST request to http://xebec.cylabacademy.net:36800/search. An unsuccessful search keeps us on the main page, while a successful search sends a GET request to http://xebec.cylabacademy.net:36800/check and updates the cookie value. We may be able to exploit this to return us a cookie with the flag.
-- Truth be told, at this point I was not 100% sure of my next step, so I did some researching and found that I would need to send repeated requests to the \check address, which can be done with a tool called Burp Suite. This could also be done with a script, but I always enjoy learning about new tools, so I will be using Burp Suite.
+
+Truth be told, at this point I was not 100% sure of my next step, so I did some researching and found that I would need to send repeated requests to the \check address, which can be done with a tool called Burp Suite. This could also be done with a script. I have downloaded the community version of Burp Suite, and will be using for this walk-through, as I find it to be in my best interest to learn new tools.
+
+- Step 7: These next steps are all within Burp Suite:
+- - 1] Open the Proxy tab and turn on Intercept
+  - 2] Open a Burp Suite Browser and copy/paste the main web address from the challenge
+  - 3] Press the Forward button in the Proxy tab
+  - 4] 
