@@ -1,4 +1,4 @@
-# [Easy] Cookies
+# [Easy] Web Exploitation - Cookies
 **Description:** Who doesn't love cookies? Try to figure out the best one.  
 **Date Attempted: 11/20/2026**
 ***
